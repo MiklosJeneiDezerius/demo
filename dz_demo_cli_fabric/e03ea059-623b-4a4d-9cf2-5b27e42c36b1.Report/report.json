@@ -1,0 +1,136 @@
+{
+  "config": "{\"version\":\"5.55\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU06\",\"version\":\"5.56\",\"type\":2}},\"activeSectionIndex\":0,\"bookmarks\":[{\"displayName\":\"Default\",\"name\":\"542b4d33eb09e4df0643\",\"explorationState\":{\"version\":\"1.3\",\"activeSection\":\"145d278ba47b7a7ee603\",\"sections\":{\"145d278ba47b7a7ee603\":{\"visualContainers\":{\"b3b372ea15d2dbc215ad\":{\"singleVisual\":{\"visualType\":\"textbox\",\"objects\":{}}},\"fa51569dc2e0d127e4ea\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"dbt_csl_dm.dm_rpt_taxi\"}},\"Property\":\"m_valid_dt\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"dbt_csl_dm.dm_rpt_taxi\"}},\"Property\":\"passenger_cnt\"}},\"Function\":0}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"lineChart\",\"objects\":{},\"orderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"dbt_csl_dm.dm_rpt_taxi\"}},\"Property\":\"m_valid_dt\"}}}],\"activeProjections\":{\"Category\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"dbt_csl_dm.dm_rpt_taxi\"}},\"Property\":\"m_valid_dt\"}}]}}},\"9d5aab57e2c2be13e083\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"dbt_csl_dm.dm_rpt_taxi\"}},\"Property\":\"m_valid_dt\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"slicer\",\"objects\":{\"merge\":{\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dbt_csl_dm.dm_rpt_taxi\",\"Type\":0}],\"Where\":[{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"m_valid_dt\"}},\"Right\":{\"Literal\":{\"Value\":\"datetime'2013-12-31T00:00:00'\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":3,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"m_valid_dt\"}},\"Right\":{\"Literal\":{\"Value\":\"datetime'2025-01-01T00:00:00'\"}}}}}}}]}}}}],\"data\":[{\"properties\":{\"startDate\":{\"expr\":{\"Literal\":{\"Value\":\"datetime'2013-12-31T00:00:00'\"}}},\"endDate\":{\"expr\":{\"Literal\":{\"Value\":\"datetime'2024-12-31T00:00:00'\"}}},\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Between'\"}}}}}]}},\"orderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"dbt_csl_dm.dm_rpt_taxi\"}},\"Property\":\"m_valid_dt\"}}}],\"activeProjections\":{\"Values\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"dbt_csl_dm.dm_rpt_taxi\"}},\"Property\":\"m_valid_dt\"}}]}}},\"d7fed01db11483f32a17\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"dbt_csl_dm.dm_rpt_taxi\"}},\"Property\":\"total_amt\"}},\"Function\":0}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"card\",\"objects\":{},\"orderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"dbt_csl_dm.dm_rpt_taxi\"}},\"Property\":\"total_amt\"}},\"Function\":0}}}]}},\"1e30e3a7fbfcd8021c47\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"dbt_csl_dm.dm_rpt_taxi\"}},\"Property\":\"vendor_id\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"slicer\",\"objects\":{\"merge\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}]}},\"activeProjections\":{\"Values\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"dbt_csl_dm.dm_rpt_taxi\"}},\"Property\":\"vendor_id\"}}]}}},\"b44324296d86b45a2dde\":{\"singleVisual\":{\"visualType\":\"textbox\",\"objects\":{}}},\"55fd9c6a32a0f4660228\":{\"singleVisual\":{\"visualType\":\"actionButton\",\"objects\":{}}},\"c0628a5b2189cf1733d9\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"dbt_csl_dm.dm_rpt_taxi\"}},\"Property\":\"trip_type_cd\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"slicer\",\"objects\":{\"merge\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}},\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}},\"activeProjections\":{\"Values\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"dbt_csl_dm.dm_rpt_taxi\"}},\"Property\":\"trip_type_cd\"}}]}}},\"fb277a483570e2f32c24\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"dbt_csl_dm.dm_rpt_taxi\"}},\"Property\":\"passenger_cnt\"}},\"Function\":0}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"card\",\"objects\":{},\"orderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"dbt_csl_dm.dm_rpt_taxi\"}},\"Property\":\"passenger_cnt\"}},\"Function\":0}}}]}},\"d30a213dc8e7496fe9fb\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"dbt_csl_dm.dm_rpt_taxi\"}},\"Property\":\"trip_distance_num\"}},\"Function\":0}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"card\",\"objects\":{},\"orderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"dbt_csl_dm.dm_rpt_taxi\"}},\"Property\":\"trip_distance_num\"}},\"Function\":0}}}]}}}}},\"objects\":{}},\"options\":{\"targetVisualNames\":[],\"suppressData\":true}}],\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":0,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU06",
+            "path": "BaseThemes/CY24SU06.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    },
+    {
+      "resourcePackage": {
+        "items": [
+          {
+            "name": "TV_-_46630500726273607.png",
+            "path": "TV_-_46630500726273607.png",
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'TV - 4.png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"TV_-_46630500726273607.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Normal'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
+      "displayName": "Summary",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "145d278ba47b7a7ee603",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"1e30e3a7fbfcd8021c47\",\"layouts\":[{\"id\":0,\"position\":{\"x\":555.1485148514852,\"y\":81.08910891089108,\"z\":6000,\"width\":365.34653465346537,\"height\":57.02970297029703,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"dm_dim_vendor_type.vendor_type_desc\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d1\",\"Entity\":\"dm_dim_vendor_type\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"vendor_type_desc\"},\"Name\":\"dm_dim_vendor_type.vendor_type_desc\",\"NativeReferenceName\":\"vendor_type_desc\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}},\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Vendor'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"items\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'wf_standard-font, helvetica, arial, sans-serif'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 57.03,
+          "width": 365.35,
+          "x": 555.15,
+          "y": 81.09,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"55fd9c6a32a0f4660228\",\"layouts\":[{\"id\":0,\"position\":{\"x\":436.6588602654177,\"y\":81.93598750975801,\"z\":8000,\"width\":105.91725214676035,\"height\":33.97345823575332,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'reset'\"}}}},\"selector\":{\"id\":\"default\"}}],\"text\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Clear all filters'\"}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'ClearAllSlicers'\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 33.97,
+          "width": 105.92,
+          "x": 436.66,
+          "y": 81.94,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"9d5aab57e2c2be13e083\",\"layouts\":[{\"id\":0,\"position\":{\"x\":929.4059405940594,\"y\":26.73267326732673,\"z\":3000,\"width\":332.3762376237624,\"height\":111.38613861386139,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"dm_fct_taxi.m_valid_dt\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d1\",\"Entity\":\"dm_fct_taxi\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"m_valid_dt\"},\"Name\":\"dm_fct_taxi.m_valid_dt\",\"NativeReferenceName\":\"Reporting date1\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"m_valid_dt\"}}}]},\"columnProperties\":{\"dm_fct_taxi.m_valid_dt\":{\"displayName\":\"Reporting date\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"data\":[{\"properties\":{\"startDate\":{\"expr\":{\"Literal\":{\"Value\":\"datetime'2008-12-31T00:00:00'\"}}},\"endDate\":{\"expr\":{\"Literal\":{\"Value\":\"datetime'2020-11-14T00:00:00'\"}}}}}],\"date\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'wf_standard-font, helvetica, arial, sans-serif'\"}}},\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"15D\"}}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d1\",\"Entity\":\"dm_fct_taxi\",\"Type\":0}],\"Where\":[{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"m_valid_dt\"}},\"Right\":{\"Literal\":{\"Value\":\"datetime'2008-12-31T00:00:00'\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":3,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"m_valid_dt\"}},\"Right\":{\"Literal\":{\"Value\":\"datetime'2020-11-15T00:00:00'\"}}}}}}}]}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Reporting date'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}}}}],\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}]}}}",
+          "filters": "[{\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"dm_fct_taxi\"}},\"Property\":\"m_valid_dt\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d1\",\"Entity\":\"dm_fct_taxi\",\"Type\":0}],\"Where\":[{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":1,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"m_valid_dt\"}},\"Right\":{\"DateSpan\":{\"Expression\":{\"Literal\":{\"Value\":\"datetime'2008-01-01T00:00:00'\"}},\"TimeUnit\":5}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":3,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"m_valid_dt\"}},\"Right\":{\"DateSpan\":{\"Expression\":{\"Literal\":{\"Value\":\"datetime'2020-12-31T00:00:00'\"}},\"TimeUnit\":5}}}}}}}]},\"type\":\"Advanced\",\"howCreated\":0,\"isHiddenInViewMode\":false}]",
+          "height": 111.39,
+          "width": 332.38,
+          "x": 929.41,
+          "y": 26.73,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"b3b372ea15d2dbc215ad\",\"layouts\":[{\"id\":0,\"position\":{\"x\":33.679066871835836,\"y\":48.11295267405119,\"z\":1000,\"width\":353.14907262753576,\"height\":54.84876604841836,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"New York Taxi Data\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"DIN\",\"fontSize\":\"32pt\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 54.85,
+          "width": 353.15,
+          "x": 33.68,
+          "y": 48.11,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"b44324296d86b45a2dde\",\"layouts\":[{\"id\":0,\"position\":{\"x\":423.33569907735983,\"y\":23.61958836053939,\"z\":7000,\"width\":131.72462739531582,\"height\":41.78850248403123,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Filters\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"DIN\",\"fontSize\":\"20pt\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 41.79,
+          "width": 131.72,
+          "x": 423.34,
+          "y": 23.62,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"c0628a5b2189cf1733d9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":555.1485148514852,\"y\":23.168316831683168,\"z\":9000,\"width\":365.34653465346537,\"height\":57.92079207920792,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"dm_dim_trip_type.trip_type_desc\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d1\",\"Entity\":\"dm_dim_trip_type\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"trip_type_desc\"},\"Name\":\"dm_dim_trip_type.trip_type_desc\",\"NativeReferenceName\":\"trip_type_desc\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}},\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Trip Type'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"items\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'wf_standard-font, helvetica, arial, sans-serif'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"general\":[{\"properties\":{}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 57.92,
+          "width": 365.35,
+          "x": 555.15,
+          "y": 23.17,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"d30a213dc8e7496fe9fb\",\"layouts\":[{\"id\":0,\"position\":{\"x\":25.980994443987644,\"y\":544.6386242702595,\"z\":11000,\"width\":360.847145055384,\"height\":112.5843092572798,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(dm_fct_taxi.trip_distance_num)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d1\",\"Entity\":\"dm_fct_taxi\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"trip_distance_num\"}},\"Function\":0},\"Name\":\"Sum(dm_fct_taxi.trip_distance_num)\",\"NativeReferenceName\":\"Distance Covered\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"trip_distance_num\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(dm_fct_taxi.trip_distance_num)\":{\"displayName\":\"Distance Covered\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"5D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 112.58,
+          "width": 360.85,
+          "x": 25.98,
+          "y": 544.64,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"d7fed01db11483f32a17\",\"layouts\":[{\"id\":0,\"position\":{\"x\":25.980994443987644,\"y\":183.79147921487555,\"z\":4000,\"width\":360.847145055384,\"height\":113.54656831076082,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(dm_fct_taxi.total_amt)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d1\",\"Entity\":\"dm_fct_taxi\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"total_amt\"}},\"Function\":0},\"Name\":\"Sum(dm_fct_taxi.total_amt)\",\"NativeReferenceName\":\"Total Revenue\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"total_amt\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(dm_fct_taxi.total_amt)\":{\"displayName\":\"Total Revenue\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1000000D\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"5D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 113.55,
+          "width": 360.85,
+          "x": 25.98,
+          "y": 183.79,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"fa51569dc2e0d127e4ea\",\"layouts\":[{\"id\":0,\"position\":{\"x\":460.92208661741046,\"y\":183.79147921487555,\"z\":2000,\"width\":759.2223931965278,\"height\":473.43145431266373,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"dm_fct_taxi.m_year_num\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(dm_fct_taxi.passenger_cnt)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d1\",\"Entity\":\"dm_fct_taxi\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"passenger_cnt\"}},\"Function\":1},\"Name\":\"Sum(dm_fct_taxi.passenger_cnt)\",\"NativeReferenceName\":\"Average of passenger_cnt\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"m_year_num\"},\"Name\":\"dm_fct_taxi.m_year_num\",\"NativeReferenceName\":\"Year\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"m_year_num\"}}}]},\"columnProperties\":{\"Sum(dm_fct_taxi.passenger_cnt)\":{\"displayName\":\"Average passenger count\"},\"dm_fct_taxi.m_year_num\":{\"displayName\":\"Year\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"lineStyles\":[{\"properties\":{\"areaShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showMarker\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"lineChartType\":{\"expr\":{\"Literal\":{\"Value\":\"'linear'\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"seriesLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"zoom\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Average of Passengers by Year'\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[{\"expression\":{\"Arithmetic\":{\"Left\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"dm_fct_taxi\"}},\"Property\":\"passenger_cnt\"}},\"Function\":1}},\"Right\":{\"ScopedEval\":{\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"dm_fct_taxi\"}},\"Property\":\"passenger_cnt\"}},\"Function\":1}},\"Scope\":[]}},\"Operator\":3}},\"type\":\"Advanced\",\"howCreated\":1,\"isHiddenInViewMode\":false}]",
+          "height": 473.43,
+          "width": 759.22,
+          "x": 460.92,
+          "y": 183.79,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"fb277a483570e2f32c24\",\"layouts\":[{\"id\":0,\"position\":{\"x\":25.980994443987644,\"y\":359.88488600190294,\"z\":10000,\"width\":360.847145055384,\"height\":112.5843092572798,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(dm_fct_taxi.passenger_cnt)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d1\",\"Entity\":\"dm_fct_taxi\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"passenger_cnt\"}},\"Function\":0},\"Name\":\"Sum(dm_fct_taxi.passenger_cnt)\",\"NativeReferenceName\":\"Total Passenger Count\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"passenger_cnt\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(dm_fct_taxi.passenger_cnt)\":{\"displayName\":\"Total Passenger Count\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"5D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 112.58,
+          "width": 360.85,
+          "x": 25.98,
+          "y": 359.88,
+          "z": 10000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

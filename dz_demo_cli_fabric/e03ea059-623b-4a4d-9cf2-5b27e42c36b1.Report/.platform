@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "rpt_nyt_report"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "e03ea059-623b-4a4d-9cf2-5b27e42c36b1"
+  }
+}
